@@ -1,0 +1,249 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./imgs/Header\ 2.jpg);
+    background-position-y: bottom;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    max-width: 1980px;
+    margin: 0 auto;
+    max-height: 812px;
+    padding-bottom: 25px;
+}
+.container{
+    padding-left: 51px;
+    padding-right: 51px;
+    nav{
+        margin-top: 41px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            display: flex;
+            column-gap: 74px;
+        }
+    }
+}
+.about{
+        ul{
+            list-style: none;
+            display: flex;
+            column-gap: 40px;
+            li{
+                a{
+                    color: #000;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-decoration: none;
+                }
+            }
+        }    
+}
+.search{
+    button{
+        border: none;
+        background-color: none;
+    }
+}
+.container_Moscov{
+    margin-top: 191px;
+    margin-left: 100px;
+    h1{
+        color: #000;
+        font-family: Roboto;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    h2{
+        color: #000;
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 640px;
+        margin-top: 37px;
+    }
+    .more{
+        display: flex;
+        column-gap: 16px;
+        align-items: center;
+        h2{
+            color: #000;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .imges{
+            width: 81.038px;
+            height: 42.038px;
+            flex-shrink: 0;
+        }
+    }
+}
+.icons{
+    margin-top: 95px;
+    ul{
+        display: flex;
+        flex-direction: column;
+        row-gap: 14px;
+        list-style: none;
+    }
+}
+.search{
+    p{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1440px) and (min-width:620px){
+    .container{
+        padding-left: 51px;
+        padding-right: 51px;
+        nav{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo{
+                display: flex;
+                column-gap: 30px;
+            }
+        }
+    }
+    .about{
+        ul{
+            list-style: none;
+            display: flex;
+            column-gap: 40px;
+            li{
+                a{
+                    font-size: 16px;
+                    font-weight: 200;
+                }
+            }
+        }    
+    }
+    .container_Moscov{
+        margin-top: 191px;
+        margin-left: 80px;
+        h1{
+            font-size: 80px;
+            font-weight: 500;
+        }
+        h2{
+            font-size: 22px;
+            font-weight: 400;
+            max-width: 400px;
+            margin-top: 37px;
+        }
+        .more{
+            display: flex;
+            column-gap: 16px;
+            align-items: center;
+            h2{
+                font-size: 14px;
+                font-weight: 400;
+            }
+            .imges{
+                width: 81.038px;
+                height: 42.038px;
+            }
+        }
+    }
+   
+    .search{
+        p{
+            display: none;
+        }
+    }
+    .icons{
+        margin-top: 95px;
+        ul{
+            display: flex;
+            flex-direction: row;
+            column-gap: 30px;
+            list-style: none;
+            li{
+                a{
+                    img{
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:620px) and (min-width:280px){
+   .container{
+        nav{
+            .logo{
+                .about{
+                    display: none;
+                }
+            }
+            .search{
+                button{
+                    display: none;
+                }
+                p{
+                    display: block;
+                }
+            }
+        }
+    }
+   .icons{
+        margin-top: 95px;
+        ul{
+            display: flex;
+            flex-direction: row;
+            column-gap: 15px;
+            list-style: none;
+            li{
+                a{
+                    img{
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+    .container_Moscov{
+        margin-top: 200px;
+        margin-left: 20px;
+        h1{
+            font-size: 40px;
+            font-weight: 500;
+        }
+        h2{
+            font-size: 18px;
+            font-weight: 300;
+            max-width: 400px;
+            margin-top: 20px;
+        }
+        .more{
+            display: flex;
+            column-gap: 16px;
+            align-items: center;
+            h2{
+                font-size: 14px;
+                font-weight: 400;
+            }
+            .imges{
+                width: 81.038px;
+                height: 42.038px;
+            }
+        }
+    }
+}

@@ -1,0 +1,233 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(./imgs/Header\ 2.jpg);
+  background-position-y: bottom;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  max-width: 1980px;
+  margin: 0 auto;
+  max-height: 812px;
+  padding-bottom: 25px;
+}
+
+.container {
+  padding-left: 51px;
+  padding-right: 51px;
+}
+.container nav {
+  margin-top: 41px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container nav .logo {
+  display: flex;
+  -moz-column-gap: 74px;
+       column-gap: 74px;
+}
+
+.about ul {
+  list-style: none;
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.about ul li a {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.search button {
+  border: none;
+  background-color: none;
+}
+
+.container_Moscov {
+  margin-top: 191px;
+  margin-left: 100px;
+}
+.container_Moscov h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container_Moscov h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 640px;
+  margin-top: 37px;
+}
+.container_Moscov .more {
+  display: flex;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  align-items: center;
+}
+.container_Moscov .more h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+}
+.container_Moscov .more .imges {
+  width: 81.038px;
+  height: 42.038px;
+  flex-shrink: 0;
+}
+
+.icons {
+  margin-top: 95px;
+}
+.icons ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+  list-style: none;
+}
+
+.search p {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 620px) {
+  .container {
+    padding-left: 51px;
+    padding-right: 51px;
+  }
+  .container nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container nav .logo {
+    display: flex;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .about ul {
+    list-style: none;
+    display: flex;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+  }
+  .about ul li a {
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .container_Moscov {
+    margin-top: 191px;
+    margin-left: 80px;
+  }
+  .container_Moscov h1 {
+    font-size: 80px;
+    font-weight: 500;
+  }
+  .container_Moscov h2 {
+    font-size: 22px;
+    font-weight: 400;
+    max-width: 400px;
+    margin-top: 37px;
+  }
+  .container_Moscov .more {
+    display: flex;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+    align-items: center;
+  }
+  .container_Moscov .more h2 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .container_Moscov .more .imges {
+    width: 81.038px;
+    height: 42.038px;
+  }
+  .search p {
+    display: none;
+  }
+  .icons {
+    margin-top: 95px;
+  }
+  .icons ul {
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    list-style: none;
+  }
+  .icons ul li a img {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media screen and (max-width: 620px) and (min-width: 280px) {
+  .container nav .logo .about {
+    display: none;
+  }
+  .container nav .search button {
+    display: none;
+  }
+  .container nav .search p {
+    display: block;
+  }
+  .icons {
+    margin-top: 95px;
+  }
+  .icons ul {
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+    list-style: none;
+  }
+  .icons ul li a img {
+    height: 30px;
+    width: 30px;
+  }
+  .container_Moscov {
+    margin-top: 200px;
+    margin-left: 20px;
+  }
+  .container_Moscov h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .container_Moscov h2 {
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  .container_Moscov .more {
+    display: flex;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+    align-items: center;
+  }
+  .container_Moscov .more h2 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .container_Moscov .more .imges {
+    width: 81.038px;
+    height: 42.038px;
+  }
+}/*# sourceMappingURL=stayil.css.map */
